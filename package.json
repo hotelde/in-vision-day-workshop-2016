@@ -5,19 +5,18 @@
   "main": "app/index.html",
   "scripts": {
     "dev": "gulp dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hotelde/in-vision-day-workshop-2016.git"
   },
   "keywords": [
-    "HOTEL",
-    "DE",
-    "In",
-    "Vision",
+    "HOTELDE",
     "Workshop",
-    "Nürnberg"
+    "Nürnberg",
+    "JavaScript"
   ],
   "author": "Peter Müller <peter.mueller@hotel.de>",
   "license": "MIT",
