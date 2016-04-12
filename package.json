@@ -4,6 +4,7 @@
   "description": "This is the super awesome web app skeleton to kick off.",
   "main": "app/index.html",
   "scripts": {
+    "dev": "gulp dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/hotelde/in-vision-day-workshop-2016/issues"
   },
-  "homepage": "https://github.com/hotelde/in-vision-day-workshop-2016#readme"
+  "homepage": "https://github.com/hotelde/in-vision-day-workshop-2016#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "require-dir": "^0.3.0"
+  }
 }
