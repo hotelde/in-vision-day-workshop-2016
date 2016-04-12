@@ -1,0 +1,27 @@
+{
+  "name": "in-vision-day-workshop-2016",
+  "version": "1.0.0",
+  "description": "This is the super awesome web app skeleton to kick off.",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotelde/in-vision-day-workshop-2016.git"
+  },
+  "keywords": [
+    "HOTEL",
+    "DE",
+    "In",
+    "Vision",
+    "Workshop",
+    "Nürnberg"
+  ],
+  "author": "Peter Müller <peter.mueller@hotel.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hotelde/in-vision-day-workshop-2016/issues"
+  },
+  "homepage": "https://github.com/hotelde/in-vision-day-workshop-2016#readme"
+}
