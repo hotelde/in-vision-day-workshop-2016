@@ -25,7 +25,22 @@
   },
   "homepage": "https://github.com/hotelde/in-vision-day-workshop-2016#readme",
   "devDependencies": {
+    "angular": "^1.5.3",
+    "connect-history-api-fallback": "^1.2.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
     "gulp": "^3.9.1",
-    "require-dir": "^0.3.0"
+    "gulp-connect": "^3.2.2",
+    "gulp-minify-html": "^1.0.6",
+    "gutil": "^1.6.4",
+    "html-loader": "^0.4.3",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.3",
+    "ng-annotate-loader": "^0.1.0",
+    "require-dir": "^0.3.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1"
   }
 }
