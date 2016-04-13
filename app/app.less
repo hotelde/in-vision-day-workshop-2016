@@ -1,0 +1,45 @@
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+app .off-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  transition: transform .5s ease 0s;
+  -webkit-transition: transform .5s ease 0s;
+
+  menu {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: -250px;
+    bottom: 0;
+    width: 250px;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  main {
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.off-canvas.menu-open {
+
+  transform: translate3d(250px, 0, 0);
+  -webkit-transform: translate3d(250px, 0, 0);
+}
