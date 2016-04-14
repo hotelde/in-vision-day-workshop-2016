@@ -13,9 +13,6 @@ angular.module('app.pages.hotels', [
 
 ])
 .component('hotels', {
-  require: {
-    app: '^app'
-  },
   template: template,
   controller: controller,
   controllerAs: 'hotels'

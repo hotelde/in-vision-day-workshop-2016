@@ -10,9 +10,6 @@ angular.module('app.pages.404', [
 
 ])
 .component('notfound', {
-  require: {
-    app: '^app'
-  },
   template: template,
   controller: controller,
   controllerAs: 'notfound'

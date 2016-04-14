@@ -27,6 +27,7 @@
   "devDependencies": {
     "angular": "^1.5.3",
     "angular-route": "^1.5.3",
+    "bootstrap": "^3.3.6",
     "connect-history-api-fallback": "^1.2.0",
     "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
