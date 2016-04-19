@@ -3,10 +3,8 @@ header {
   .navbar {
 
     height: 50px;
-    border-left: 0;
-    border-right: 0;
-
-    text-align: center;
+    border: 0;
+    background: rgba(255, 255, 255, 0.85);
 
     button {
 
@@ -17,5 +15,21 @@ header {
       background: transparent;
       border: 0;
     }
+
+    .container,
+    .container-fluid {
+
+      text-align: center;;
+    }
+
+    .navbar-header {
+
+      font-weight: bold;
+    }
+  }
+
+  & + div {
+
+    padding-top: 70px;
   }
 }

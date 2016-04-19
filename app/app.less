@@ -43,10 +43,20 @@ app .off-canvas {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+  .off-canvas-blurred {
+
+    -webkit-transition: -webkit-filter .5s ease 0s;
+  }
 }
 
 .off-canvas.menu-open {
 
   transform: translate3d(250px, 0, 0);
   -webkit-transform: translate3d(250px, 0, 0);
+
+  .off-canvas-blurred {
+
+    -webkit-filter: blur(5px);
+  }
 }

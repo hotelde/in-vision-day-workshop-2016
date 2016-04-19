@@ -1,1 +1,5 @@
-<h2>{{hotel.data.name}}</h2>
+<h4>
+  {{hotel.data.name}}
+  <small ng-repeat="star in hotel.getStars() track by $index">★</small>
+</h4>
+<p>{{hotel.data.description}}</p>

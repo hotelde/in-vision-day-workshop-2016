@@ -1,3 +1,5 @@
+require('./hotel.less');
+
 module.exports = 'app.hotel';
 
 var angular = require('angular');
@@ -15,4 +17,4 @@ angular.module('app.hotel', [
   template: template,
   controller: controller,
   controllerAs: 'hotel'
-})
+});
