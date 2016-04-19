@@ -140,12 +140,18 @@ The image below shows how the components are nested at the application. The HTML
 
 # Hands On
 
-## Content is King
+## #1 Content is King
 
-add more pages
+Create a new page with a custom route, add it to the menu and style it.
 
-## Your First Release
+## #2 More Magic
+
+magic moments ...
+
+## #3 Your First Release
 
 build ...
 
-## Code Quality
+## #4 Code Quality
+
+testing [& ESLint]
