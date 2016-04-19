@@ -132,7 +132,7 @@ angular.module('app.pages.404', [
 
 Each component matches on a HTML tag - for example `<menu>`, `<hotel>` or `<header>`.
 
-An Angular module can have any components. But it's not a must. The `app.pages` module does not have any component, but it's required to load the requested page (`/hotels` => `<hotels>`).
+An Angular module can have any components. But it's not a must. The `app.pages` module does not have a component, but it's required to load the requested page (`/hotels` => `<hotels>`).
 
 The image below shows how the components are nested at the application. The HTML markup is completely independent from the file path / namespace.
 
