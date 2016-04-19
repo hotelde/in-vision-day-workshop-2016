@@ -137,3 +137,15 @@ An Angular module can have any components. But it's not a must. The `app.pages` 
 The image below shows how the components are nested at the application. The HTML markup is completely independent from the file path / namespace.
 
 <img src="./workshop/components.png" alt="Illustration of nested application components">
+
+# Hands On
+
+## Content is King
+
+add more pages
+
+## Your First Release
+
+build ...
+
+## Code Quality
