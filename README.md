@@ -48,8 +48,81 @@ To start coding we have to run our development server. In this technology stack 
 npm run dev
 ```
 
-Run the command above to run the webpack development server. After a few seconds it spawns our application at http://localhost:8080.
+Run the command above to run the webpack development server. After a few seconds it spawns our application at http://localhost:8080
 
 Open the browser of your choice (but Google Chrome is recommended :)) and navigate to the URL.
 
 If everything went well you should see our shiny new web application.
+
+## Project Structure
+
+```
+api/                  # contains some JSON files to simulate our API
+app/                  # All application components are in here
+dist/                 # Contains the final application, tested and built
+gulp/                 # Taks for development, testing and build
+node_modules/         # All dependencies installed via NPM
+
+.Gulpfile.js          # This file serves all gulp tasks
+index.html            # Entry point of our web application
+package.json          # Defines our project and dependencies
+README.md             # Contains all information to set up the project
+webpack.config.js     # Configuration file for webpack
+```
+
+## Application Structure
+
+Our web application is built with components. This is a common way in modern web
+development to structure code and apps. Hence each element can be defined in one
+separate folder.
+
+```
+app/                  # Contains the initial application module
+app/header/           # The application header
+app/hotel/            # A component to represent a hotel
+app/menu/             # The menu
+app/pages/            # A component which handles our pages
+app/pages/404/        # The 404 page if a requested page does not exist
+app/pages/hotels/     # A list of hotels
+app/pages/index/      # The start page
+```
+
+The application is built on AngularJS 1.5.3. Angular dependencies must be defined
+in modules. This makes it easy to provide re-usable code. An angular module is
+defined by a unique name. Since we have a clear folder structure, we can reuse
+the path for name spacing / module naming.
+
+Have a look at the code below how a angular module will be defined according to
+the file path.
+
+```js
+// app/app.js
+
+angular.module('app', [
+
+  // Dependencies / other module names
+  'app.pages'
+]);
+```
+
+Let's have a look at a nested components
+
+```js
+// app/pages/pages.js
+
+angular.module('app.pages', [
+
+  'app.pages.index',
+  'app.pages.hotels',
+  'app.pages.404'
+])
+```
+
+```js
+//app/pages/404/404.js
+
+angular.module('app.pages.404', [
+
+  // This module has no dependencies
+]);
+```
