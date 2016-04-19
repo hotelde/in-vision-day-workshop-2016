@@ -73,7 +73,7 @@ webpack.config.js     # Configuration file for webpack
 ## Application Structure
 
 Our web application is built with components. This is a common way in modern web
-development to structure code and apps. Hence each element can be defined in one
+development to structure code and apps. Hence each element can be defined in a
 separate folder.
 
 ```
@@ -112,6 +112,7 @@ Let's have a look at a nested components
 
 angular.module('app.pages', [
 
+  // Dependencies / other module names
   'app.pages.index',
   'app.pages.hotels',
   'app.pages.404'
@@ -126,3 +127,7 @@ angular.module('app.pages.404', [
   // This module has no dependencies
 ]);
 ```
+
+## Components
+
+<img src="./workshop/components.png" alt="Illustration of nested application components">
