@@ -11,7 +11,7 @@ module.exports = {
         template: '<page-hotels></page-hotels>'
       })
       .when('/disclaimer', {
-        template: '<disclaimer></disclaimer>'
+        template: '<page-disclaimer></page-disclaimer>'
       })
       .when('/404', {
         template: '<page-not-found></page-not-found>'

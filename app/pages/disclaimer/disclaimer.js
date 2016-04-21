@@ -9,7 +9,7 @@ angular.module('app.pages.disclaimer', [
   // Dependencies
 
 ])
-.component('disclaimer', {
+.component('pageDisclaimer', {
   template: template,
   controller: controller,
   controllerAs: 'disclaimer'
