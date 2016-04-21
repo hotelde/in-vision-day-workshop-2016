@@ -13,15 +13,21 @@ module.exports = function HotelService ($http) {
 
   service.getHotel = function getHotel(id) {
 
-    service.getHotels().then(function parseHotels (hotels) {
+    return service.getHotels().then(function parseHotels (hotels) {
+
+      var result;
 
       angular.forEach(hotels, function pick (hotel) {
 
-          if (hotel.id === id) {
+        if (hotel.id === parseInt(id, 10)) {
 
-            return hotel;
-          }
+          result = hotel;
+
+          return;
+        }
       });
+
+      return result;
     });
   };
 }
