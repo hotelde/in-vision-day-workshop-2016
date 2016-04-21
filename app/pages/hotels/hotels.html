@@ -1,9 +1,15 @@
 <header>
   <header-title>Hotels</header-title>
+  <button
+    class="pull-right"
+    ng-class="{'filter active': hotels.order === 'stars'}"
+    ng-click="hotels.toggleOrder()">
+      <svg  height="24px" version="1.1" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/><g fill="none" fill-rule="evenodd" id="miu" stroke="none" stroke-width="1"><g id="Artboard-1" transform="translate(-683.000000, -263.000000)"><g id="slice" transform="translate(215.000000, 119.000000)"/><path d="M694.98491,281.136378 L688.186537,286 L690.536373,277.987539 L684,272.561762 L691.949829,272.493347 L694.98491,264 L697.936034,272.561768 L706,272.561768 L699.433447,278.040327 L701.783283,286 L694.98491,281.136378 L694.98491,281.136378 Z" fill="#000000" id="common-star-favorite-bookmark-glyph"/></g></g></svg>
+  </button>
 </header>
 <div class="container off-canvas-blurred">
   <hotel-thumbnail
-    ng-repeat="hotel in page.hotels"
+    ng-repeat="hotel in page.hotels | orderBy:hotels.order:true"
     data="hotel">
   </hotel-thumbnail>
 </div>

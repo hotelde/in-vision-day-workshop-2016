@@ -5,6 +5,8 @@ module.exports = function HotelsCtrl (HotelService) {
 
   ctrl.hotels = [];
 
+  ctrl.order = '';
+
   ctrl.$onInit = function $onInit () {
 
     HotelService.getHotels().then(function hotelsLoaded (hotels) {
@@ -12,4 +14,9 @@ module.exports = function HotelsCtrl (HotelService) {
       ctrl.hotels = hotels;
     });
   };
+
+  ctrl.toggleOrder = function toggleOrder () {
+
+    ctrl.order = ctrl.order !== 'stars' ? 'stars' : '';
+  }
 }

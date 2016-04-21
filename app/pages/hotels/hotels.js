@@ -1,5 +1,7 @@
 module.exports = 'app.pages.hotels';
 
+require('./hotels.less');
+
 var angular = require('angular');
 
 var hotelModule = require('./../../hotel/hotel.js');
