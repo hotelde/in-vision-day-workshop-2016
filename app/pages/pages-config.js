@@ -10,6 +10,9 @@ module.exports = {
       .when('/hotels', {
         template: '<hotels></hotels>'
       })
+      .when('/disclaimer', {
+        template: '<disclaimer></disclaimer>'
+      })
       .when('/404', {
         template: '<notfound></notfound>'
       })
