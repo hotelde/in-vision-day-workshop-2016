@@ -3,3 +3,6 @@
   <small ng-repeat="star in hotel.getStars() track by $index">★</small>
 </h4>
 <p>{{hotel.data.description}}</p>
+<p>
+  <a ng-href="/hotel/{{hotel.data.id}}" title="Show more information">More information</a>
+</p>
