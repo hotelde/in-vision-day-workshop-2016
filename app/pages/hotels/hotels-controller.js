@@ -1,4 +1,4 @@
-module.exports = function HotelsCtrl ($http) {
+module.exports = function HotelsCtrl (HotelService) {
   'ngInject';
 
   var ctrl = this;
@@ -7,9 +7,9 @@ module.exports = function HotelsCtrl ($http) {
 
   ctrl.$onInit = function $onInit () {
 
-    $http.get('/api/hotels.json').then(function (response) {
+    HotelService.getHotels().then(function hotelsLoaded (hotels) {
 
-      ctrl.hotels = response.data;
-    })
-  }
+      ctrl.hotels = hotels;
+    });
+  };
 }

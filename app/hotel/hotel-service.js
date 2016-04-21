@@ -3,7 +3,7 @@ module.exports = function HotelService ($http) {
 
   var service = this;
 
-  service.getHotels = function getHotels (cb) {
+  service.getHotels = function getHotels () {
 
     return $http.get('/api/hotels.json').then(function hotelsLoaded (response) {
 
@@ -24,5 +24,4 @@ module.exports = function HotelService ($http) {
       });
     });
   };
-
 }
