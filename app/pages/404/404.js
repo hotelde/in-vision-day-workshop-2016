@@ -12,5 +12,5 @@ angular.module('app.pages.404', [
 .component('pageNotFound', {
   template: template,
   controller: controller,
-  controllerAs: 'notfound'
+  controllerAs: 'page'
 });

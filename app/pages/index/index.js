@@ -16,5 +16,5 @@ angular.module('app.pages.index', [
 .component('pageIndex', {
   template: template,
   controller: controller,
-  controllerAs: 'index'
+  controllerAs: 'page'
 });

@@ -15,5 +15,5 @@ angular.module('app.pages.hotels', [
 .component('pageHotels', {
   template: template,
   controller: controller,
-  controllerAs: 'hotels'
+  controllerAs: 'page'
 });
