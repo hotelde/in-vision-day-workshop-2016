@@ -140,17 +140,27 @@ The image below shows how the components are nested at the application. The HTML
 
 # Hands On
 
+First you can start with any task you want to. The tasks are independent from each other. All tasks and needed changes are available as a GIT diff with a bunch of comments to help you out.
+
 ## #1 Content is King
 
-Create a new page with a custom route, add it to the menu and style it.
+Create a new page with a custom route, add it to the menu and style it. What about a disclaimer page?
 
-## #2 More Magic
+https://github.com/hotelde/in-vision-day-workshop-2016/compare/content-is-king#files_bucket
 
-magic moments ...
+## #2 Hotel Detail Page
 
-## #3 Your First Release
+We still have a list of hotels but no detailed information about the offer. Hence we need a new page to show more information for a specific hotel.
 
-build ...
+Each hotel can be identified by a unique ID which makes it possible to address the data via these kind of URL: `/hotel/1` (`/hotel/:hotelId`)
+
+https://github.com/hotelde/in-vision-day-workshop-2016/compare/hotel-details#files_bucket
+
+## #3 Best Rated Hotels
+
+At the moment we offer 10 different hotels. Some of them are bad rated so we should provide a simple way for you customers to order from the best to the worst.
+
+https://github.com/hotelde/in-vision-day-workshop-2016/compare/filter-hotels#files_bucket
 
 ## #4 Code Quality
 
