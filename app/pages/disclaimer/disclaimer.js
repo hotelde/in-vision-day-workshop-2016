@@ -12,5 +12,5 @@ angular.module('app.pages.disclaimer', [
 .component('pageDisclaimer', {
   template: template,
   controller: controller,
-  controllerAs: 'disclaimer'
+  controllerAs: 'page'
 });
