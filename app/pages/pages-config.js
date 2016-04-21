@@ -5,13 +5,13 @@ module.exports = {
 
     $routeProvider
       .when('/', {
-        template: '<index></index>'
+        template: '<page-index></page-index>'
       })
       .when('/hotels', {
-        template: '<hotels></hotels>'
+        template: '<page-hotels></page-hotels>'
       })
       .when('/404', {
-        template: '<notfound></notfound>'
+        template: '<page-not-found></page-not-found>'
       })
       .otherwise('/404');
   }

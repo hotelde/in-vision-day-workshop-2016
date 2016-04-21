@@ -9,7 +9,7 @@ angular.module('app.pages.404', [
   // Dependencies
 
 ])
-.component('notfound', {
+.component('pageNotFound', {
   template: template,
   controller: controller,
   controllerAs: 'notfound'

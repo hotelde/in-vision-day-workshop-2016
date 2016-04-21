@@ -13,7 +13,7 @@ angular.module('app.pages.index', [
   headerModule
 
 ])
-.component('index', {
+.component('pageIndex', {
   template: template,
   controller: controller,
   controllerAs: 'index'

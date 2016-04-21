@@ -12,7 +12,7 @@ angular.module('app.pages.hotels', [
   hotelModule
 
 ])
-.component('hotels', {
+.component('pageHotels', {
   template: template,
   controller: controller,
   controllerAs: 'hotels'
