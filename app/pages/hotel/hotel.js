@@ -13,7 +13,7 @@ angular.module('app.pages.hotel', [
   hotelModule
 
 ])
-.component('hotelpage', {
+.component('pageHotel', {
   template: template,
   controller: controller,
   controllerAs: 'page'

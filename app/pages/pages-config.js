@@ -11,7 +11,7 @@ module.exports = {
         template: '<page-hotels></page-hotels>'
       })
       .when('/hotel/:hotelId', {
-        template: '<hotelpage></hotelpage>'
+        template: '<page-hotel></page-hotel>'
       })
       .when('/404', {
         template: '<page-not-found></page-not-found>'
