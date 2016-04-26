@@ -67,12 +67,15 @@ If everything went well you should see our shiny new web application.
 Google Chrome is an excellent browser for web development. Open the developer tools (on Windows and Linux press `F12`; on OSX press `alt` + `command` + `i`) and go into device mode.
 
 Open the `device mode`
+
 <img src="workshop/device-mode.png" />
 
 Select any device - for example `iPhone 6`
+
 <img src="workshop/device.png" />
 
 Now our web application will appear in the shiny mobile-first design.
+
 <img src="workshop/mobile-first.png" />
 
 ## Project Structure
