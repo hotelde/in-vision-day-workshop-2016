@@ -11,6 +11,12 @@ gulp.task('build:index', function () {
     .pipe(gulp.dest('dist'));
 });
 
+gulp.task('build:favicon', function () {
+
+  return gulp.src('favicon.ico')
+    .pipe(gulp.dest('dist'));
+});
+
 gulp.task('build:bundle', function (cb) {
 
   webpack(webpackConfig, function (err, stats) {
@@ -29,4 +35,4 @@ gulp.task('build:bundle', function (cb) {
 });
 
 
-gulp.task('build', ['build:index', 'build:bundle']);
+gulp.task('build', ['build:index', 'build:bundle', 'build:favicon']);
