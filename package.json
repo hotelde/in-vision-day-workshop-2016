@@ -39,6 +39,7 @@
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
     "ng-annotate-loader": "^0.1.0",
+    "path": "^0.12.7",
     "require-dir": "^0.3.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
