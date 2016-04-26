@@ -13,9 +13,6 @@ module.exports = {
       .when('/disclaimer', {
         template: '<page-disclaimer></page-disclaimer>'
       })
-      .when('/disclaimer', {
-        template: '<disclaimer></disclaimer>'
-      })
       .when('/404', {
         template: '<page-not-found></page-not-found>'
       })
