@@ -201,3 +201,28 @@ JSON _(JavaScript Object Notation)_ is a syntax schema to define JavaScript obje
 ## #5 Build Your Web App
 
 tbd ...
+
+## #6 Next Challenge
+
+If you are looking for a new challenge, join us!
+
+http://jobs.hotel.de
+
+## Resources
+
+### Frameworks
+
+- http://angularjs.org
+- http://lesscss.org/
+- http://getbootstrap.com
+
+### Tooling
+
+- http://gulpjs.com/
+- https://webpack.github.io/
+
+### Slides
+
+Follow the link below for the slides of the opening presentation
+
+https://www.icloud.com/keynote/000eHdbPhyK0nzafwKyL1zFIQ#Modern_Web_Development
