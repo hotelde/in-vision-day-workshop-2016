@@ -14,31 +14,39 @@ He gives talks at meetups and conferences and organizes the local JavaScript mee
 
 ## Setup
 
-**If GIT is installed**
+**Create a projects folder**
 
-Switch to a folder where you want to clone the project into (e. g. `projects`) and run the command below.
+Create a new folder for your projects - for example `projects` at `C:\` or in your home directory on Unix machines `~/projects`.
 
+**Download the zipped project**
+
+https://github.com/hotelde/in-vision-day-workshop-2016/archive/master.zip
+
+Download the zipped source and extract it to your `projects` folder. You will finally have `projects/in-vision-day-workshop-2016/`.
+
+**Terminal or Shell**
+
+On Linux and OSX open the `terminal`. On Windows machines you can open `cmd.exe` (`Start` > `run` > `cmd.exe`) or any other available shell you want.
+
+Switch to the `projects/in-vision-day-workshop-2016` folder.
+
+Example on Windows:
 ```
-git clone https://github.com/hotelde/in-vision-day-workshop-2016.git
+cd C:\projects\in-vision-day-workshop-2016
 ```
 
-Now switch to the new folder `ìn-vision-day-workshop-2016`.
-
+Example on Unix:
 ```
-cd in-vision-day-workshop-2016
+cd ~/projects/in-vision-day-workshop-2016
 ```
 
-Finally you have to install all dependencies via `NPM`.
+**Install all Dependencies**
+
+Now install all dependencies by running the command below.
 
 ```
 npm install
 ```
-
-**Download the zipped project**
-
-TODO: https://some-where.com/foo.zip
-
-This package contains all dependencies. No `npm install` required.
 
 ## Start the Development Server
 
@@ -48,11 +56,24 @@ To start coding we have to run our development server. In this technology stack 
 npm run dev
 ```
 
-Run the command above to run the webpack development server. After a few seconds it spawns our application at http://localhost:8080
+Run the command above to start the webpack development server. After a few seconds it spawns our application at http://localhost:8080
 
-Open the browser of your choice (but Google Chrome is recommended :)) and navigate to the URL.
+Open the browser of your choice (but **Google Chrome is recommended :)**) and navigate to the URL.
 
 If everything went well you should see our shiny new web application.
+
+## Prepare Dev Tools
+
+Google Chrome is an excellent browser for web development. Open the developer tools (on Windows and Linux press `F12`; on OSX press `alt` + `command` + `i`) and go into device mode.
+
+Open the `device mode`
+<img src="workshop/device-mode.png" />
+
+Select any device - for example `iPhone 6`
+<img src="workshop/device.png" />
+
+Now our web application will appear in the shiny mobile-first design.
+<img src="workshop/mobile-first.png" />
 
 ## Project Structure
 
