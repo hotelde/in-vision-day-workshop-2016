@@ -198,9 +198,17 @@ https://github.com/hotelde/in-vision-day-workshop-2016/compare/filter-hotels#fil
 
 JSON _(JavaScript Object Notation)_ is a syntax schema to define JavaScript objects. It's a common way to deal with JSON API's _(Application Interfaces)_. Our sample app makes a simple HTTP request on `/api/hotels.json` and uses this data to represent the content. Feel free to add some new hotels, modify the data or try to change the JSON structure and see what will happen :)
 
-## #5 Build Your Web App
+## #5 Bring Your App to Life
 
-tbd ...
+This step is quite easy. Just run the command below:
+
+```
+npm run build
+```
+
+... and boom! Our tooling pipeline builds the application for us. All resources which are defined in our `/app` are now bundled and compress and can be found in `/dist`.
+
+This result could be deployed to any web server.
 
 ## #6 Next Challenge
 
