@@ -48,6 +48,8 @@ Now install all dependencies by running the command below.
 npm install
 ```
 
+This may take awhile.
+
 ## Start the Development Server
 
 To start coding we have to run our development server. In this technology stack we use webpack to build and serve our project.
@@ -190,6 +192,6 @@ https://github.com/hotelde/in-vision-day-workshop-2016/compare/filter-hotels#fil
 
 JSON _(JavaScript Object Notation)_ is a syntax schema to define JavaScript objects. It's a common way to deal with JSON API's _(Application Interfaces)_. Our sample app makes a simple HTTP request on `/api/hotels.json` and uses this data to represent the content. Feel free to add some new hotels, modify the data or try to change the JSON structure and see what will happen :)
 
-## #4 Code Quality
+## #5 Build Your Web App
 
-testing [& ESLint]
+tbd ...
