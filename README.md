@@ -174,6 +174,9 @@ Create a new page with a custom route, add it to the menu and style it. What abo
 
 https://github.com/hotelde/in-vision-day-workshop-2016/compare/content-is-king#files_bucket
 
+<img src="workshop/disclaimer-menu.png" />
+<img src="workshop/disclaimer.png" />
+
 ## #2 Hotel Detail Page
 
 We still have a list of hotels but no detailed information about the offer. Hence we need a new page to show more information for a specific hotel.
