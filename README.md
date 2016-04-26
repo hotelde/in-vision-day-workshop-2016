@@ -190,6 +190,8 @@ At the moment we offer 10 different hotels. Some of them are bad rated so we sho
 
 https://github.com/hotelde/in-vision-day-workshop-2016/compare/filter-hotels#files_bucket
 
+<img src="workshop/featured-hotels.png" />
+
 ## #4 JSON?
 
 JSON _(JavaScript Object Notation)_ is a syntax schema to define JavaScript objects. It's a common way to deal with JSON API's _(Application Interfaces)_. Our sample app makes a simple HTTP request on `/api/hotels.json` and uses this data to represent the content. Feel free to add some new hotels, modify the data or try to change the JSON structure and see what will happen :)
