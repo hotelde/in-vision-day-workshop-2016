@@ -184,6 +184,8 @@ Each hotel can be identified by a unique ID which makes it possible to address t
 
 https://github.com/hotelde/in-vision-day-workshop-2016/compare/hotel-details#files_bucket
 
+<img src="workshop/hotel-details.png" />
+
 ## #3 Best Rated Hotels
 
 At the moment we offer 10 different hotels. Some of them are bad rated so we should provide a simple way for you customers to order from the best to the worst. So let's create a new icon in the header area which orders the hotels by tapping on it.
